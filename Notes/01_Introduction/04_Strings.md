@@ -28,8 +28,8 @@ Normally strings may only span a single line. Triple quotes capture all text enc
 including all formatting.
 
 There is no difference between using single (') versus double (")
-quotes.  The same type of quote used to start a string must be used to
-terminate it.
+quotes. *However, the same type of quote used to start a string must be used to
+terminate it*.
 
 ### String escape codes
 
@@ -144,7 +144,7 @@ s.isalpha()            # Check if characters are alphabetic
 s.isdigit()            # Check if characters are numeric
 s.islower()            # Check if characters are lower-case
 s.isupper()            # Check if characters are upper-case
-s.join(slist)          # Joins lists using s as delimiter
+s.join(slist)          # Join a list of strings using s as delimiter
 s.lower()              # Convert to lower case
 s.replace(old,new)     # Replace text
 s.rfind(t)             # Search for t from end of string

@@ -11,7 +11,7 @@ Many operations in Python are related to *assigning* or *storing* values.
 
 ```python
 a = value         # Assignment to a variable
-s[n] = value      # Assignment to an list
+s[n] = value      # Assignment to a list
 s.append(value)   # Appending to a list
 d['key'] = value  # Adding to a dictionary
 ```
@@ -238,7 +238,7 @@ items[1].sqrt(2)    # math
 except items[2]:    # ValueError
 ```
 
-With great power come responsibility.  Just because you can do that doesn't mean you should.
+With great power comes responsibility.  Just because you can do that doesn't mean you should.
 
 ## Exercises
 
